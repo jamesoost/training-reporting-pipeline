@@ -1,0 +1,37 @@
+# Data layers: contents are regenerated or supplied locally; keep folder structure only.
+data/*/*
+!data/*/.gitkeep
+
+# Logs and outputs: regenerated on every run, except committed reports.
+data/logs/pipeline.log
+outputs/diagnostics/
+outputs/metadata/
+outputs/reconciliation/
+outputs/pipeline.log
+outputs/run_manifest.json
+
+# Alias management: local maintenance workflow, not version controlled.
+scripts/suggest_aliases.py
+scripts/suggest_aliases_*.csv
+scripts/alias_additions/
+docs/alias_maintenance.md
+
+# Tests: to be developed and added in the future.
+tests/
+
+# Project config: deferred.
+pyproject.toml
+
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
