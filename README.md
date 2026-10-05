@@ -222,14 +222,6 @@ training-reporting-pipeline/
 3. Run the pipeline and aliases are applied at transform time.
 
 
-### Excluding Test/Internal Records
-
-Add keywords to `TEST_INTERNAL_KEYWORDS` in `src/config.py`:
-
-```python
-TEST_INTERNAL_KEYWORDS = ("test", "dummy", "internal")
-```
-
 ---
 
 ## Design & Architecture
